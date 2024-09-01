@@ -1,5 +1,7 @@
 # Django
 https://note.com/mega_gorilla/n/n256a33c01afb
+
+https://docs.djangoproject.com/ja/5.0/intro/tutorial01/
 ## インストール
 $ pip install django
 
