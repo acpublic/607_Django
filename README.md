@@ -13,3 +13,17 @@ $ python manage.py runserver
 
 ## アプリケーション作成
 $ python manage.py startapp polls
+
+## Database の設定
+mysite/settings.pyのINSTALLED_APPSに追加
+```python
+INSTALLED_APPS = [
+    "polls.apps.PollsConfig",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+]
+```
