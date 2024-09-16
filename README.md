@@ -34,3 +34,5 @@ $ python manage.py migrate
 ## フィールドの型
 https://docs.djangoproject.com/ja/5.1/ref/models/fields/#field-types
 
+## マイグレーション
+$ python manage.py sqlmigrate polls 0001
