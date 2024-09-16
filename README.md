@@ -27,3 +27,10 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 ```
+
+## Database の設定
+$ python manage.py migrate
+
+## フィールドの型
+https://docs.djangoproject.com/ja/5.1/ref/models/fields/#field-types
+
