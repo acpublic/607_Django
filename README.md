@@ -31,6 +31,9 @@ INSTALLED_APPS = [
 ## Database の設定
 $ python manage.py migrate
 
+## マイグレーション用のファイルを作成
+python manage.py makemigrations polls
+
 ## フィールドの型
 https://docs.djangoproject.com/ja/5.1/ref/models/fields/#field-types
 
