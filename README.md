@@ -51,3 +51,26 @@ http://127.0.0.1:8000/admin/
 
 ## 管理ユーザーを作成
 $ python manage.py createsuperuser
+
+## 管理ページ表示
+```python
+class Question(models.Model):
+    # ...
+    def __str__(self):
+        return self.question_text
+
+
+class Choice(models.Model):
+    # ...
+    def __str__(self):
+        return self.choice_text
+```
+
+## 管理サイトに表示
+polls/admin.py
+```python
+from .models import Question
+
+admin.site.register(Question)
+```
+
