@@ -46,3 +46,8 @@ python manage.py sqlmigrate polls 0001
 ## プロジェクトに何か問題がないか確認
 $ python manage.py check
 
+## 管理サイト
+http://127.0.0.1:8000/admin/ 
+
+## 管理ユーザーを作成
+$ python manage.py createsuperuser
